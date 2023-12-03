@@ -1,0 +1,46 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+
+{% block body %}
+  <div class="gallery">
+    <figure class="gallery__item gallery__item--1">
+        <a href="http://127.0.0.1:8000/shop?q=Music%20&%20Instruments">
+            <img src="{% static 'images/1.webp' %}" class="gallery__img" alt="Image 1">
+            <div class="overlay-text">Music & Instruments</div>
+        </a>
+    </figure>
+    <figure class="gallery__item gallery__item--2">
+        <a href="http://127.0.0.1:8000/shop?q=Collectibles%20&%20Antiques">
+            <img src="{% static 'images/2.jpg' %}" class="gallery__img" alt="Image 2">
+            <div class="overlay-text">Collectibles & Antiques</div>
+        </a>
+    </figure>
+    <figure class="gallery__item gallery__item--3">
+        <a href="http://127.0.0.1:8000/shop?q=Jewelry%20&%20Watches">
+            <img src="{% static 'images/3.jpg' %}" class="gallery__img" alt="Image 3">
+            <div class="overlay-text">Jewelry & Watches</div>
+        </a>
+    </figure>
+    <figure class="gallery__item gallery__item--4">
+        <a href="http://127.0.0.1:8000/shop?q=Sports%20&%20Outdoors">
+            <img src="{% static 'images/4.jpg' %}" class="gallery__img" alt="Image 4">
+            <div class="overlay-text">Sports & Outdoors</div>
+        </a>
+    </figure>
+
+    <figure class="gallery__item gallery__item--5">
+        <a href="http://127.0.0.1:8000/shop?q=Books%20&%20Magazines">
+            <img src="{% static 'images/5.png' %}" class="gallery__img" alt="Image 5">
+            <div class="overlay-text">Books & Magazines</div>
+        </a>
+    </figure>
+
+    <figure class="gallery__item gallery__item--6">
+        <a href="http://127.0.0.1:8000/?q=Home%20&%20Garden">
+            <img src="{% static 'images/6.webp' %}" class="gallery__img" alt="Image 6">
+            <div class="overlay-text">Home & Garden</div>
+        </a>
+    </figure>
+  </div>
+
+{% endblock %}

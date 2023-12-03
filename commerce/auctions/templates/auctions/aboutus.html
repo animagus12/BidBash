@@ -1,0 +1,37 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+<style>
+    .aboutus__container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .aboutus__image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .aboutus__text {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+</style>
+
+<div class="aboutus__container">
+    <div class="aboutus__image">
+        <img src="{% static 'images/aboutus.jpg' %}">
+    </div>
+    <div class="aboutus__text">
+        <p>Welcome to BidBash, your premier destination for an electrifying online auction experience!
+            At BidBash, we've redefined the art of bidding, creating a platform that brings together buyers and
+            sellers in a thrilling virtual marketplace. Dive into a world where the excitement of bidding knows no
+            bounds,
+            and discover a curated collection of rare treasures, exclusive experiences, and everyday essentials.</p>
+    </div>
+</div>
+
+{% endblock %}

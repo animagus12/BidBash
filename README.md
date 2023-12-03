@@ -37,19 +37,14 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/youssefel01/Auctions.git
+   https://github.com/animagus12/BidBash.git
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd Auctions
-
-3. Create a virtual environment to isolate your project's dependencies:
+2. Create a virtual environment to isolate your project's dependencies:
 
    ```bash
    python -m venv venv
 
-4. Activate the virtual environment (on Windows):
+3. Activate the virtual environment (on Windows):
 
    ```bash
    venv\Scripts\activate
@@ -58,7 +53,7 @@ To run this project locally, follow these steps:
 
    source venv/bin/activate
 
-5. Install requirements
+4. Install requirements
 
    ```bash
    pip install requirements.txt
@@ -79,7 +74,7 @@ To run this project locally, follow these steps:
    ```bash
    python manage.py runserver
 
-9. Open your web browser and go to http://127.0.0.1:8000 to access the application.
+8. Open your web browser and go to http://127.0.0.1:8000 to access the application.
 
 You have now successfully set up the Django Auctions Website locally. Enjoy exploring and customizing your auction platform!
 

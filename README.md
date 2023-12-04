@@ -1,4 +1,4 @@
-# Django Auctions Website
+# BidBash
 
 This project is a Django-based web application for creating and managing online auctions. Users can list items for auction, place bids, and monitor auctions they're interested in.
 

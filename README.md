@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   https://github.com/animagus12/BidBash.git
+   git clone https://github.com/animagus12/BidBash.git
 
 2. Create a virtual environment to isolate your project's dependencies:
 
@@ -56,25 +56,30 @@ To run this project locally, follow these steps:
 4. Install requirements
 
    ```bash
-   pip install requirements.txt
+   pip install -r requirements.txt
 
-5. Apply database migrations:
+5. Change Directory
+   
+   ```bash
+   cd commerce
+
+6. Apply database migrations:
 
    ```bash
    python manage.py makemigrations
    python manage.py migrate
 
-6. Create a superuser account to access the admin panel:
+7. Create a superuser account to access the admin panel:
 
    ```bash
    python manage.py createsuperuser
 
-7. Start the development server:
+8. Start the development server:
 
    ```bash
    python manage.py runserver
 
-8. Open your web browser and go to http://127.0.0.1:8000 to access the application.
+9. Open your web browser and go to http://127.0.0.1:8000 to access the application.
 
 You have now successfully set up the Django Auctions Website locally. Enjoy exploring and customizing your auction platform!
 
